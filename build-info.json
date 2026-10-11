@@ -1,0 +1,16 @@
+{
+  "format": "FlyPath GitHub Pages export",
+  "apiUrl": "https://drosophila-kegg-explorer.wavystork1.chatgpt.site/api/enrich",
+  "esbuildVersion": "0.28.0",
+  "sourcePageSha256": "938e14df3b541479413661e3c9326dc65b870f65229637df1493df151f7d33ed",
+  "sourceCssSha256": "b00035403f5140b3dba325fd9bb89277b9bf5ab9c3a99d055260e068ebe099c9",
+  "htmlSha256": "5ee54b3bbadbce07b73c04f0f51aa0a88d20eb50918cb9d13969e17891320d8f",
+  "bytes": 281632,
+  "bundledRuntime": [
+    "React",
+    "React DOM",
+    "Lucide"
+  ],
+  "externalRuntimeImports": 0,
+  "note": "Static public interface; enrichment runs on the disclosed remote service. API CORS must allow the deployed GitHub Pages origin."
+}
