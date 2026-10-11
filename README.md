@@ -12,14 +12,6 @@ A public Drosophila enrichment interface for GitHub Pages. This directory is rea
 
 Do not upload your research CSVs to the repository. Visitors select files inside the web app; the chosen gene column is submitted for analysis, not committed to GitHub.
 
-## Analysis hosting and privacy
-
-GitHub Pages hosts the interface. The existing public FlyPath service at `https://drosophila-kegg-explorer.wavystork1.chatgpt.site/api/enrich` still runs the analyses. The browser's address bar remains on `github.io`, but the backend hostname is visible in application source and network tools. This is not an offline app and it is not a migration of the backend.
-
-Gene lists and optional custom backgrounds are sent to that service. GO queries go to g:Profiler; KEGG uses live reference downloads and the existing validated FlyPath enrichment engine. Neither the app nor this repository saves submitted lists or results. Export results before closing the page.
-
-The backend permits noncredentialed JSON requests from HTTPS GitHub Pages origins. It must remain available and public for the frontend to work. A blocked network request or provider outage will be shown as an analysis error. No credentials, tokens, or private datasets are included in this package.
-
 ## Features
 
 - Paste genes or upload CSV/TSV with a selectable identifier column.
